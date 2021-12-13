@@ -23,10 +23,12 @@ struct FavoritView: View {
                     
                     
                 }
-            }.onAppear(perform: {
+            }
+            .navigationBarTitle("", displayMode: .inline)
+            .onAppear(perform: {
                 getFav()
             })
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
     
     

@@ -22,10 +22,11 @@ struct FirstPage: View {
         
         NavigationView {
             VStack {
+                
                 Text("Flytta Hemifrån")
-                    .font(.custom("Clear Sans Heavy", size: 24))
+                    .font(.custom("Clear Sans Thin", size: 24))
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.black)
+                   // .foregroundColor(Color.black)
                 
                 
                 ScrollView {
@@ -37,16 +38,11 @@ struct FirstPage: View {
                             }
                         }
                     }
-                    /*
                     .padding(.horizontal)
-                    .fullScreenCover(isPresented: $onClick) {
-                              SecondPage()
-                    }
-                    */
                 }
                 Spacer()
-            }
-        }
+            }.navigationBarTitle("", displayMode: .inline)
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
     

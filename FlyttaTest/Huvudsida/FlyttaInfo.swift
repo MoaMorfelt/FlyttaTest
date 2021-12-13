@@ -26,7 +26,14 @@ class FlyttaInfo : Identifiable {
         var kategori1_3 = FlyttItem()
         kategori1_3.flyttname = "Kontantinsats"
         kategori1_3.flyttimage = "kontantinsats"
-        kategori1_3.flytttext = "När du ska köpa en bostad behöver du troligtvis ett bolån. Bolånet är på max 85% av bostadens värdering eller det belopp du ska köpa bostaden för. Återstående del av bostaden är de 15% som du själv måste betala. Denna procent kallas för kontantinsats. Du kan betala mer än 15% men inte mindre. Vanligtvis kommer dessa 15% från sparade pengar eller vinst från en tidigare försäljning av bostad. Ifall du inte har pengarna till de 15% kan du ta ett privatlån som inte har bostaden som säkerhet. Dock är räntan oftast högre och återbetalningstiden är kortare på ett privatlån än ett bolån. Därför är det väldigt viktigt att se till innan man tar ett privatlån att man har råd att betala alla kostnader.                                                                                            Exempel på kontantinsatser:                                                                     500.000 SEK = 75.000 SEK                                                                            1.000.000 SEK = 150.000 SEK                                                                     1.500.000 SEK = 225.000 SEK                                                                     2.000.000 SEK = 300.000 SEK                                                                     2.500.000 SEK = 375.000 SEK                                                                     3.000.000 SEK = 450.000 SEK "
+        kategori1_3.flytttext = """
+        hej hopp
+        This site contains user submitted content, comments and opinions and is
+        informational purposes only. Apple disclaims any and all liability for the acts,
+        omissions and conduct of any third parties in connection with or related to your use of
+        the site. All postings and use of the content on this site are subject to the Apple
+        Developer Forums Participation Agreement
+        """
         
         kategori1.subkategorier?.append(kategori1_3)
         
@@ -34,7 +41,11 @@ class FlyttaInfo : Identifiable {
         var kategori1_4 = FlyttItem()
         kategori1_4.flyttname = "Lån"
         kategori1_4.flyttimage = "lan"
-        kategori1_4.flytttext = "Du kan låna pengar av banken"
+        kategori1_4.flytttext = """
+        Du kan låna pengar av banken
+        Massa **feta** stålar
+        Betala tillbaka
+        """
         
         kategori1.subkategorier?.append(kategori1_4)
         

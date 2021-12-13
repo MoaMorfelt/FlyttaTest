@@ -21,17 +21,14 @@ struct ContentView: View {
                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color("lightblue")/*@END_MENU_TOKEN@*/)
                 .clipShape(RoundedRectangle(cornerRadius: 15))
                 .shadow(color:Color("ColorTest") , radius: 2)
-                .overlay(RoundedRectangle(cornerRadius: 15)
-                              .stroke(Color.black, lineWidth: 3))
-                            .shadow(radius: 5)
+                
             
             Text(knapp)
-                .font(.custom("Clear Sans Heavy", size: 18))
+                .font(.custom("Clear Sans Thin", size: 13))
                 .fontWeight(.heavy)
                 .foregroundColor(Color.black)
             
         }
-
     }
 }
 

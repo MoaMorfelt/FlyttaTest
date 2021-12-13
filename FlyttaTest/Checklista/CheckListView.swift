@@ -65,7 +65,6 @@ struct CheckListView: View {
                 }
             }
             
-            
         }.onAppear(perform: {
             getChecklist()
         })

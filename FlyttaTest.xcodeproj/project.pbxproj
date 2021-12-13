@@ -32,6 +32,7 @@
 		01D38905273D6BA8009E76E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		01D3892B274549BC009E76E4 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
 		01E1042327664AE300210FD9 /* clear-sans.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clear-sans.regular.ttf"; sourceTree = "<group>"; };
+		01E104252767750F00210FD9 /* Testing.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Testing.md; sourceTree = "<group>"; };
 		01F9CDAD273BDC15009C1BB9 /* FlyttaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyttaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9CDB0273BDC15009C1BB9 /* FlyttaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyttaTestApp.swift; sourceTree = "<group>"; };
 		01F9CDB2273BDC15009C1BB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		01F9CDA4273BDC15009C1BB9 = {
 			isa = PBXGroup;
 			children = (
+				01E104252767750F00210FD9 /* Testing.md */,
 				01F9CDAF273BDC15009C1BB9 /* FlyttaTest */,
 				01F9CDAE273BDC15009C1BB9 /* Products */,
 			);
@@ -357,6 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +392,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,7 +11,7 @@ struct ThirdPage: View {
     
     @State var category2 = FlyttItem()
     
-    @State var favtext = "Favorit"
+    @State var isFav = false
     
     var body: some View {
         
@@ -24,7 +24,19 @@ struct ThirdPage: View {
                 Button(action: {
                     makeFav()
                 }) {
-                    Label(favtext, systemImage: "heart")
+                    if(isFav)
+                    {
+                        Label("", systemImage: "heart.fill")
+                            .imageScale(.large)
+                            .foregroundColor(Color("ColorTest"))
+                            .padding(.trailing, 10.0)
+                    } else {
+                        Label("", systemImage: "heart")
+                            .imageScale(.large)
+                            .foregroundColor(Color("ColorTest"))
+                            .padding(.trailing, 10.0)
+                    }
+                    
                 
                 }
             }
@@ -34,19 +46,19 @@ struct ThirdPage: View {
                     .font(.custom("Clear Sans Thin", size: 24))
                     .padding(.bottom, 3.0)
                 
-            Text(try! AttributedString(markdown: category2.flytttext))
+            Text(try! AttributedString(markdown: category2.flytttext, options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace)))
                     .font(.custom("Clear Sans Thin", size: 18))
-                .multilineTextAlignment(.leading)
                 .lineLimit(nil)
                 .multilineTextAlignment(.leading)
                 .lineSpacing(3)
-                .padding(.horizontal, 15.0)
+                .padding(.horizontal, 10.0)
             
             Spacer()
         }.onAppear(perform: {
             checkFav()
         })
         }
+        
     }
     
     func checkFav()
@@ -59,9 +71,9 @@ struct ThirdPage: View {
         
         if(favlist.contains(category2.flyttname))
         {
-            favtext = "Ta bort favorit"
+            isFav = true
         } else {
-            favtext = "Gör favorit"
+            isFav = false
         }
     }
     

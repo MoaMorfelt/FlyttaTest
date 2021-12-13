@@ -35,7 +35,7 @@ struct SecondPage: View {
                         }
                     }
                 }
-                .padding(.horizontal)
+                .padding([.top, .leading, .trailing])
             }
             Spacer()
         }

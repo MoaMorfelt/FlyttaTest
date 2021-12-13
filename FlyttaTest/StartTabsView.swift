@@ -13,24 +13,26 @@ struct StartTabsView: View {
             FirstPage()
                 .tabItem {
                     Label("Hem", systemImage: "house.fill")
-            
+                        .foregroundColor(Color("ColorTest"))
                 }
-                   
+            
             
             CheckListView()
                 .tabItem {
                     Label("Checklist", systemImage: "checkmark.circle")
+                        .foregroundColor(Color("ColorTest"))
                 }
             
             
-                    FavoritView()
-                        .tabItem {
-                            Label("Favoriter", systemImage: "heart.fill")
+            FavoritView()
+                .tabItem {
+                    Label("Favoriter", systemImage: "heart.fill")
+                        .foregroundColor(Color("ColorTest"))
                 }
-            }
         }
-        
     }
+    
+}
 
 struct StartTabsView_Previews: PreviewProvider {
     static var previews: some View {
