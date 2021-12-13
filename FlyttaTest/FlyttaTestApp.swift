@@ -11,7 +11,9 @@ import SwiftUI
 struct FlyttaTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            //FirstPage()
+            StartTabsView()
         }
     }
 }

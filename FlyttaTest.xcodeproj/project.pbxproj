@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B88A232760EEAE00F6B8A3 /* FavoritView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A222760EEAE00F6B8A3 /* FavoritView.swift */; };
+		01B88A2A2760EFAC00F6B8A3 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A292760EFAC00F6B8A3 /* CheckListView.swift */; };
+		01B88A302762386400F6B8A3 /* StartTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A2F2762386400F6B8A3 /* StartTabsView.swift */; };
+		01C5DAE9274695D500929758 /* FlyttaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C5DAE8274695D500929758 /* FlyttaInfo.swift */; };
+		01D38902273D433A009E76E4 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D38901273D433A009E76E4 /* SecondPage.swift */; };
+		01D38904273D6B4D009E76E4 /* clear-sans.thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D38903273D6B4D009E76E4 /* clear-sans.thin.ttf */; };
+		01D3892C274549BC009E76E4 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3892B274549BC009E76E4 /* ThirdPage.swift */; };
+		01E1042427664AE300210FD9 /* clear-sans.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01E1042327664AE300210FD9 /* clear-sans.regular.ttf */; };
 		01F9CDB1273BDC15009C1BB9 /* FlyttaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9CDB0273BDC15009C1BB9 /* FlyttaTestApp.swift */; };
 		01F9CDB3273BDC15009C1BB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9CDB2273BDC15009C1BB9 /* ContentView.swift */; };
 		01F9CDB5273BDC17009C1BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CDB4273BDC17009C1BB9 /* Assets.xcassets */; };
 		01F9CDB8273BDC17009C1BB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CDB7273BDC17009C1BB9 /* Preview Assets.xcassets */; };
+		01F9CDBF273BDD0A009C1BB9 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9CDBE273BDD0A009C1BB9 /* FirstPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B88A222760EEAE00F6B8A3 /* FavoritView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritView.swift; sourceTree = "<group>"; };
+		01B88A292760EFAC00F6B8A3 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		01B88A2F2762386400F6B8A3 /* StartTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabsView.swift; sourceTree = "<group>"; };
+		01C5DAE8274695D500929758 /* FlyttaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyttaInfo.swift; sourceTree = "<group>"; usesTabs = 0; };
+		01D38901273D433A009E76E4 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		01D38903273D6B4D009E76E4 /* clear-sans.thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clear-sans.thin.ttf"; sourceTree = "<group>"; };
+		01D38905273D6BA8009E76E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01D3892B274549BC009E76E4 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		01E1042327664AE300210FD9 /* clear-sans.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clear-sans.regular.ttf"; sourceTree = "<group>"; };
 		01F9CDAD273BDC15009C1BB9 /* FlyttaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyttaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9CDB0273BDC15009C1BB9 /* FlyttaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyttaTestApp.swift; sourceTree = "<group>"; };
 		01F9CDB2273BDC15009C1BB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01F9CDB4273BDC17009C1BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F9CDB7273BDC17009C1BB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01F9CDBE273BDD0A009C1BB9 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B88A242760EEBC00F6B8A3 /* Huvudsida */ = {
+			isa = PBXGroup;
+			children = (
+				01C5DAE8274695D500929758 /* FlyttaInfo.swift */,
+			);
+			path = Huvudsida;
+			sourceTree = "<group>";
+		};
+		01B88A252760EED600F6B8A3 /* Sidor */ = {
+			isa = PBXGroup;
+			children = (
+				01F9CDBE273BDD0A009C1BB9 /* FirstPage.swift */,
+				01D38901273D433A009E76E4 /* SecondPage.swift */,
+				01D3892B274549BC009E76E4 /* ThirdPage.swift */,
+			);
+			path = Sidor;
+			sourceTree = "<group>";
+		};
+		01B88A262760EF1B00F6B8A3 /* Favorit */ = {
+			isa = PBXGroup;
+			children = (
+				01B88A222760EEAE00F6B8A3 /* FavoritView.swift */,
+			);
+			path = Favorit;
+			sourceTree = "<group>";
+		};
+		01B88A272760EF4D00F6B8A3 /* Checklista */ = {
+			isa = PBXGroup;
+			children = (
+				01B88A292760EFAC00F6B8A3 /* CheckListView.swift */,
+			);
+			path = Checklista;
+			sourceTree = "<group>";
+		};
+		01B88A282760EF8500F6B8A3 /* Knapp */ = {
+			isa = PBXGroup;
+			children = (
+				01F9CDB2273BDC15009C1BB9 /* ContentView.swift */,
+			);
+			path = Knapp;
+			sourceTree = "<group>";
+		};
 		01F9CDA4273BDC15009C1BB9 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +113,16 @@
 			isa = PBXGroup;
 			children = (
 				01F9CDB0273BDC15009C1BB9 /* FlyttaTestApp.swift */,
-				01F9CDB2273BDC15009C1BB9 /* ContentView.swift */,
+				01B88A2F2762386400F6B8A3 /* StartTabsView.swift */,
+				01B88A242760EEBC00F6B8A3 /* Huvudsida */,
+				01B88A252760EED600F6B8A3 /* Sidor */,
+				01B88A282760EF8500F6B8A3 /* Knapp */,
+				01B88A262760EF1B00F6B8A3 /* Favorit */,
+				01B88A272760EF4D00F6B8A3 /* Checklista */,
+				01D38905273D6BA8009E76E4 /* Info.plist */,
 				01F9CDB4273BDC17009C1BB9 /* Assets.xcassets */,
+				01E1042327664AE300210FD9 /* clear-sans.regular.ttf */,
+				01D38903273D6B4D009E76E4 /* clear-sans.thin.ttf */,
 				01F9CDB6273BDC17009C1BB9 /* Preview Content */,
 			);
 			path = FlyttaTest;
@@ -125,8 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D38904273D6B4D009E76E4 /* clear-sans.thin.ttf in Resources */,
 				01F9CDB8273BDC17009C1BB9 /* Preview Assets.xcassets in Resources */,
 				01F9CDB5273BDC17009C1BB9 /* Assets.xcassets in Resources */,
+				01E1042427664AE300210FD9 /* clear-sans.regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D38902273D433A009E76E4 /* SecondPage.swift in Sources */,
 				01F9CDB3273BDC15009C1BB9 /* ContentView.swift in Sources */,
+				01C5DAE9274695D500929758 /* FlyttaInfo.swift in Sources */,
+				01B88A2A2760EFAC00F6B8A3 /* CheckListView.swift in Sources */,
+				01D3892C274549BC009E76E4 /* ThirdPage.swift in Sources */,
 				01F9CDB1273BDC15009C1BB9 /* FlyttaTestApp.swift in Sources */,
+				01B88A302762386400F6B8A3 /* StartTabsView.swift in Sources */,
+				01B88A232760EEAE00F6B8A3 /* FavoritView.swift in Sources */,
+				01F9CDBF273BDD0A009C1BB9 /* FirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +350,14 @@
 				DEVELOPMENT_TEAM = 55B6T4P2R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyttaTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flytta Hemifrån";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +382,14 @@
 				DEVELOPMENT_TEAM = 55B6T4P2R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyttaTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flytta Hemifrån";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
