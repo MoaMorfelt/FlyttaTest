@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0171A81B2770E3270045A1D6 /* KontantinsatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171A81A2770E3270045A1D6 /* KontantinsatsView.swift */; };
 		01B88A232760EEAE00F6B8A3 /* FavoritView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A222760EEAE00F6B8A3 /* FavoritView.swift */; };
 		01B88A2A2760EFAC00F6B8A3 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A292760EFAC00F6B8A3 /* CheckListView.swift */; };
 		01B88A302762386400F6B8A3 /* StartTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B88A2F2762386400F6B8A3 /* StartTabsView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0171A81A2770E3270045A1D6 /* KontantinsatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontantinsatsView.swift; sourceTree = "<group>"; };
 		01B88A222760EEAE00F6B8A3 /* FavoritView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritView.swift; sourceTree = "<group>"; };
 		01B88A292760EFAC00F6B8A3 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		01B88A2F2762386400F6B8A3 /* StartTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabsView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				01B88A222760EEAE00F6B8A3 /* FavoritView.swift */,
+				0171A81A2770E3270045A1D6 /* KontantinsatsView.swift */,
 			);
 			path = Favorit;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				01F9CDB3273BDC15009C1BB9 /* ContentView.swift in Sources */,
 				01C5DAE9274695D500929758 /* FlyttaInfo.swift in Sources */,
 				01B88A2A2760EFAC00F6B8A3 /* CheckListView.swift in Sources */,
+				0171A81B2770E3270045A1D6 /* KontantinsatsView.swift in Sources */,
 				01D3892C274549BC009E76E4 /* ThirdPage.swift in Sources */,
 				01F9CDB1273BDC15009C1BB9 /* FlyttaTestApp.swift in Sources */,
 				01B88A302762386400F6B8A3 /* StartTabsView.swift in Sources */,

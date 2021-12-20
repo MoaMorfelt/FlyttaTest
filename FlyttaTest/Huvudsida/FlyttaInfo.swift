@@ -26,6 +26,7 @@ class FlyttaInfo : Identifiable {
         var kategori1_3 = FlyttItem()
         kategori1_3.flyttname = "Kontantinsats"
         kategori1_3.flyttimage = "kontantinsats"
+        kategori1_3.infoimage = "torktumlare"
         kategori1_3.flytttext = """
         hej hopp
         This site contains user submitted content, comments and opinions and is
@@ -92,6 +93,14 @@ Mera text.
         
         kategori2.subkategorier?.append(kategori2_2)
         
+        // 2.2FLYTT - Rensa
+        var kategori2_5 = FlyttItem()
+        kategori2_5.flyttname = "Rensa"
+        kategori2_5.flyttimage = "rensa"
+        kategori2_5.flytttext = "Såhär rensar du"
+        
+        kategori2.subkategorier?.append(kategori2_5)
+        
         // 2.3FLYTT - Flyttfirma
         var kategori2_3 = FlyttItem()
         kategori2_3.flyttname = "Flyttbil"
@@ -99,6 +108,15 @@ Mera text.
         kategori2_3.flytttext = "Lättare än att gå"
         
         kategori2.subkategorier?.append(kategori2_3)
+        
+        // 2.3FLYTT - Flyttfirma
+        var kategori2_4 = FlyttItem()
+        kategori2_4.flyttname = "Flyttstäd"
+        kategori2_4.flyttimage = "Fstad"
+        kategori2_4.flytttext = "Låt någon annan städa"
+        
+        kategori2.subkategorier?.append(kategori2_4)
+
         
         // 3.Larm
         var kategori3 = FlyttItem()
@@ -470,6 +488,8 @@ class FlyttItem : Identifiable {
     var flytttext : String = """
 ABC TEST
 """
+    
+    var infoimage = ""
     
     var subkategorier : [FlyttItem]?
     

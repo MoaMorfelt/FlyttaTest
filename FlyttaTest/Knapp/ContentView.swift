@@ -18,9 +18,9 @@ struct ContentView: View {
                 .resizable()
                 .padding()
                 .frame(width: 100.0, height: 100.0)
-                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color("lightblue")/*@END_MENU_TOKEN@*/)
+                .background(Color("lightblue"))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
-                .shadow(color:Color("ColorTest") , radius: 2)
+                .shadow(color:Color("Lila") , radius: 2)
                 
             
             Text(knapp)

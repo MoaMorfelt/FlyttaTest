@@ -13,23 +13,25 @@ struct StartTabsView: View {
             FirstPage()
                 .tabItem {
                     Label("Hem", systemImage: "house.fill")
-                        .foregroundColor(Color("ColorTest"))
                 }
             
             
             CheckListView()
                 .tabItem {
                     Label("Checklist", systemImage: "checkmark.circle")
-                        .foregroundColor(Color("ColorTest"))
                 }
             
             
             FavoritView()
                 .tabItem {
                     Label("Favoriter", systemImage: "heart.fill")
-                        .foregroundColor(Color("ColorTest"))
                 }
-        }
+            
+           KontantinsatsView()
+                .tabItem {
+                    Label("Kontantinsats", systemImage: "banknote")
+                }
+        }.accentColor(Color("Lila"))
     }
     
 }

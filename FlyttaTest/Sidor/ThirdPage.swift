@@ -42,6 +42,14 @@ struct ThirdPage: View {
             }
             
             ScrollView{
+                if(category2.infoimage != "")
+                {
+                    Image(category2.infoimage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
+
+                
             Text(category2.flyttname)
                     .font(.custom("Clear Sans Thin", size: 24))
                     .padding(.bottom, 3.0)

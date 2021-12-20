@@ -21,7 +21,6 @@ struct FavoritView: View {
                         Text(fav.flyttname)
                     }
                     
-                    
                 }
             }
             .navigationBarTitle("", displayMode: .inline)
