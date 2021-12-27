@@ -30,7 +30,8 @@ struct CheckListView: View {
         "Meddela grannar",
         "Flytthandla till flyttdagen",
         "Packa en väska med nödvändigheter",
-        "Hämta nycklarna"]
+        "Hämta nycklarna",
+    "Köp en brandvarnare, brandfilt & brandsläckare"]
     
     
     

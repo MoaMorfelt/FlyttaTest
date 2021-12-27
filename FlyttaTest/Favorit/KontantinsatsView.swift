@@ -19,7 +19,7 @@ struct KontantinsatsView: View {
                 .fontWeight(.heavy)
                 .padding(.vertical)
             
-            Text("Skriv in priset på lägenheten och räkna ut vad du behöver betala i kontantinsats.")
+            Text("Skriv in priset på lägenheten och räkna ut vad du minst behöver betala i kontantinsats.")
                 .font(.custom("Clear Sans Thin", size: 18))
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 20.0)
@@ -32,21 +32,37 @@ struct KontantinsatsView: View {
                 .padding()
                 .font(.custom("Clear Sans Thin", size: 18))
                 
-            
-            
-            Button(action: {
-                calculation(nummer1: nummer1)
-                print(multiply)
-            }) {
-                Text("RÄKNA UT")
-                    .font(.custom("Clear Sans Thin", size: 20))
-                    .fontWeight(.heavy)
-                    .foregroundColor(Color.black)
+            HStack {
+                Spacer()
+                Button(action: {
+                    nummer1 = ""
+                    multiply = 0
+                }) {
+                    Label("", systemImage: "trash.circle.fill")
+                        .padding(.trailing)
+                        .imageScale(.large)
+                        .foregroundColor(Color("Lila"))
+                        
+                    
             }
-            .padding()
-            .background(Color("lightblue"))
-            .clipShape(RoundedRectangle(cornerRadius: 15))
+            }
+            
+            HStack {
+                Button(action: {
+                    calculation(nummer1: nummer1)
+                    print(multiply)
+                }) {
+                    Text("RÄKNA UT")
+                        .font(.custom("Clear Sans Thin", size: 20))
+                        .fontWeight(.heavy)
+                        .foregroundColor(Color.black)
+                }
+                .padding()
+                .background(Color("lightblue"))
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             .shadow(color:Color("Lila") , radius: 2)
+                
+            }
             
             Text("Beloppet blir:")
                 .font(.custom("Clear Sans Thin", size: 20))
@@ -72,5 +88,6 @@ func calculation(nummer1: String)
 struct KontantinsatsView_Previews: PreviewProvider {
     static var previews: some View {
         KontantinsatsView()
+            .padding()
     }
 }

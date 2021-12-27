@@ -18,7 +18,7 @@ struct ThirdPage: View {
         
         
         VStack {
-
+            
             HStack {
                 Spacer()
                 Button(action: {
@@ -37,35 +37,35 @@ struct ThirdPage: View {
                             .padding(.trailing, 10.0)
                     }
                     
-                
+                    
                 }
             }
             
             ScrollView{
+                
+                Text(category2.flyttname)
+                    .font(.custom("Clear Sans Thin", size: 24))
+                    .padding(.bottom, 3.0)
+                
+                Text(try! AttributedString(markdown: category2.flytttext, options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace)))
+                // .font(.custom("Clear Sans Thin", size: 18))
+                    .lineLimit(nil)
+                    .multilineTextAlignment(.leading)
+                    .lineSpacing(3)
+                    .padding(.leading, 10.0)
+                
                 if(category2.infoimage != "")
                 {
                     Image(category2.infoimage)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                 }
-
                 
-            Text(category2.flyttname)
-                    .font(.custom("Clear Sans Thin", size: 24))
-                    .padding(.bottom, 3.0)
-                
-            Text(try! AttributedString(markdown: category2.flytttext, options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace)))
-                    .font(.custom("Clear Sans Thin", size: 18))
-                .lineLimit(nil)
-                .multilineTextAlignment(.leading)
-                .lineSpacing(3)
-                .padding(.horizontal, 10.0)
-            
-            Spacer()
+                Spacer()
+            }
         }.onAppear(perform: {
             checkFav()
         })
-        }
         
     }
     

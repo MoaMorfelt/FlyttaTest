@@ -42,7 +42,7 @@ struct FirstPage: View {
                 }
                 Spacer()
             }.navigationBarTitle("", displayMode: .inline)
-        }.navigationViewStyle(StackNavigationViewStyle())
+        }
     }
 }
     
